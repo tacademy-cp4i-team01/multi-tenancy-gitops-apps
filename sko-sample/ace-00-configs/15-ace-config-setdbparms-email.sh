@@ -17,7 +17,7 @@ cat <<EOF >ace-setdbparms-data-email.txt
 smtp::mailtrapsecid $MAILTRAP_USER $MAILTRAP_PWD
 EOF
 CONFIG_DATA_BASE64=$(base64 ace-setdbparms-data-email.txt)
-rm ace-setdbparms-data-email.txt
+#rm ace-setdbparms-data-email.txt
 ########################
 # CREATE CONFIGURATION #
 ########################
