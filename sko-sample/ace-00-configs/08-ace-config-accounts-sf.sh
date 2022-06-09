@@ -28,8 +28,8 @@ SF_CLIENT_SECRET=${SF_CLIENT_SECRET} \
 SF_LOGIN_URL=${SF_LOGIN_URL} \
 sh > ace-config-account-sf.yaml
 CONFIG_DATA_BASE64=$(base64 ace-config-account-sf.yaml)
-echo "Cleaning up temp files..."
-rm -f ace-config-account-sf.yaml
+# echo "Cleaning up temp files..."
+# rm -f ace-config-account-sf.yaml
 ########################
 # CREATE CONFIGURATION #
 ########################
