@@ -10,7 +10,7 @@ resources:
 
 # used by evnt2mail, fwdmqevnt - accessing EventStream
 - ace-config-policy-es-scram.yaml
-- ace-config-setdbparms-es-scram.yaml
+#- ace-config-setdbparms-es-scram.yaml
 - ace-config-truststore.yaml
 
 # used by evnt2mail - Sending email
